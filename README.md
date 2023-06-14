@@ -3,6 +3,14 @@ examples adjusted for the [Blues Swan](https://blues.io/products/swan) board.
 
 ## Running examples
 
+- Install [rustup](https://rustup.rs/)
+
+- Install the cross compiler target
+
+```bash
+rustup target add thumbv7em-none-eabi
+```
+
 - Install `probe-rs-cli` with defmt support.
 
 ```bash
